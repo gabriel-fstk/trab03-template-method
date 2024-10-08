@@ -1,0 +1,17 @@
+<pessoas>
+  <pessoa>
+    <cpf>111.111.111-11</cpf>
+    <nome>Gabriel</nome>
+    <idade>23</idade>
+  </pessoa>
+  <pessoa>
+    <cpf>222.222.222-22</cpf>
+    <nome>Joana</nome>
+    <idade>19</idade>
+  </pessoa>
+  <pessoa>
+    <cpf>333.333.333-33</cpf>
+    <nome>Ingrid</nome>
+    <idade>24</idade>
+  </pessoa>
+</pessoas>

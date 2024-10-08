@@ -1,0 +1,5 @@
+[
+  { "cpf": "111.111.111-11", "nome": "Gabriel", "idade": 23 },
+  { "cpf": "222.222.222-22", "nome": "Joana", "idade": 19 },
+  { "cpf": "333.333.333-33", "nome": "Ingrid", "idade": 24 }
+]
