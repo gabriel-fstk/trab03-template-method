@@ -28,7 +28,7 @@ O projeto segue o padrão de design Template Method, onde diferentes formas de e
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/gabriel-fstk/trab03-template-method.git
    ```
 
 2. Compile o projeto:
@@ -94,7 +94,7 @@ Se quiser contribuir com o projeto, siga estas etapas:
    ```
 3. Commit suas mudanças: 
    ```bash
-   git commit -m 'Adiciona nova funcionalidade'
+   git commit -m 'feat: adiciona nova funcionalidade X'
    ```
 4. Envie para o repositório remoto: 
    ```bash
