@@ -69,14 +69,29 @@ jsonExporter.generateOutputFromPessoaList(pessoaList, "pessoas_from_list.json");
 ## Estrutura do Código
 
 ```
-src/
-├── Pessoa.java                # Classe que define os atributos de uma pessoa
-├── DataExporter.java           # Classe abstrata que define o método Template
-├── TextExporter.java           # Implementação concreta para exportar como Texto Plano
-├── HTMLExporter.java           # Implementação concreta para exportar como HTML
-├── JSONExporter.java           # Implementação concreta para exportar como JSON
-├── XMLExporter.java            # Implementação concreta para exportar como XML
-└── Main.java                   # Classe principal para executar o programa
+lib/                            # Diretório para bibliotecas externas
+output/                         # Diretório que contém os arquivos gerados
+├── pessoas_from_list.html      # Exportação dos dados de pessoas em formato HTML
+├── pessoas_from_list.json      # Exportação dos dados de pessoas em formato JSON
+├── pessoas_from_list.xml       # Exportação dos dados de pessoas em formato XML
+├── pessoas.html                # Exportação dos dados de pessoas em formato HTML
+├── pessoas.json                # Exportação dos dados de pessoas em formato JSON
+├── pessoas.txt                 # Exportação dos dados de pessoas em formato Texto Plano
+└── pessoas.xml                 # Exportação dos dados de pessoas em formato XML
+resources/                      # Diretório que contém arquivos de dados
+└── pessoas.csv                 # Arquivo CSV que contém os dados das pessoas
+src/                            # Diretório principal do código fonte em Java
+└── main/                       # Estrutura do código fonte
+    └── java/                   # Pacote Java
+        ├── exports/            # Pacote que contém as classes de exportação
+        │   ├── DataExporter.java   # Classe abstrata que define o método template para exportação
+        │   ├── HTMLExporter.java   # Classe para exportar dados em formato HTML
+        │   ├── JSONExporter.java   # Classe para exportar dados em formato JSON
+        │   ├── TextExporter.java   # Classe para exportar dados em formato Texto Plano
+        │   └── XMLExporter.java    # Classe para exportar dados em formato XML
+        └── models/             # Pacote que contém as classes do modelo
+        │   └── Pessoa.java         # Classe que define os atributos de uma pessoa
+        └── Main.java       # Classe principal que inicia a execução do programa
 ```
 
 ## Extensibilidade
